@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: Metal PADORU Maker
+description: METAL PADORU PADORU MAKER.
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 2
+  items: {
+    items: [
+      PADORU/10
+      plastanium/5
+      surge-alloy/5
+    ]
+  }
+}
+requirements: [
+  plastanium/50
+  thorium/300
+  silicon/200
+  PADORU/100
+  surge-alloy/100
+]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: MetalPADORU/2

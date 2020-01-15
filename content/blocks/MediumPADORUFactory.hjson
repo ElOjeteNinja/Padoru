@@ -1,0 +1,22 @@
+name: Medium PADORU Factory
+description: Makes MediumPADORU units.
+type: UnitFactory
+unitType: MediumPADORU
+itemCapacity:40
+size: 3
+produceTime: 1200
+consumes: {
+  power: 2
+  items: {
+    items: [
+      PADORU/20
+    ]
+  }
+}
+category: units
+requirements: [
+  PADORU/100
+  titanium/100
+  silicon/60
+  thorium/30
+]

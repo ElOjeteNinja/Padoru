@@ -1,0 +1,31 @@
+type: DoubleTurret
+name: THE PADORU
+description: THE ULTIMATE PADORU
+health: 1500
+size: 4
+reload: 0.1
+range: 500
+ammoUseEffect: shellEjectSmall
+inaccuracy: 5
+rotatespeed: 20
+ammo: {
+  PADORU: {
+    speed: 15
+    damage: 2500
+    bulletWidth: 10
+    bulletHeight: 15
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+    splashDamageRadius: 10
+	  splashDamage: 2500
+  }
+}
+requirements: [
+  SmallPADORU/3000
+  PADORU/1000
+  thorium/1000
+  plastanium/250
+  silicon/1500
+]
+category: turret

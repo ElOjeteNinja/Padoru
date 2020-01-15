@@ -1,0 +1,20 @@
+name: PADORU Drill
+description: A very strange drill.
+type: Drill
+size: 2
+tier: 2
+drillTime: 350
+consumes: {
+  power: 2
+  liquid: {
+    liquid: Molten-PADORU
+    amount: 0.1
+    booster: true
+  }
+}
+requirements: [
+  PADORU/80
+  silicon/40
+  titanium/20
+]
+category: production

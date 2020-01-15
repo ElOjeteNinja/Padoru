@@ -1,0 +1,29 @@
+type: DoubleTurret
+name: Astolfo PADORU
+description: Sprays PADORU bullets everywhere. What a kris-mess.
+health: 600
+size: 2
+reload: 4
+range: 300
+ammoUseEffect: shellEjectSmall
+inaccuracy: 10
+rotatespeed: 15
+ammo: {
+  PADORU: {
+    speed: 6
+    damage: 500
+    bulletWidth: 10
+    bulletHeight: 15
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+}
+requirements: [
+  SmallPADORU/300
+  PADORU/100
+  thorium/100
+  plastanium/50
+  silicon/150
+]
+category: turret

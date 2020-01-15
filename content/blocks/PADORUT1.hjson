@@ -1,0 +1,26 @@
+type: DoubleTurret
+name: Small Turret PADORU
+description: Sprays Small PADORU bullets everywhere. What a kris-mess.
+health: 300
+size: 1
+reload: 4
+range: 125
+ammoUseEffect: shellEjectSmall
+inaccuracy: 10
+rotatespeed: 15
+ammo: {
+  SmallPADORU: {
+    speed: 3
+    damage: 25
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+}
+requirements: [
+  SmallPADORU/60
+  copper/70
+]
+category: turret

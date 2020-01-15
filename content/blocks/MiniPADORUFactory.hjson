@@ -1,0 +1,22 @@
+name: MiniPADORU Factory
+description: Makes MiniPADORU units.
+type: UnitFactory
+unitType: MiniPADORU
+itemCapacity:40
+size: 2
+produceTime: 600
+consumes: {
+  power: 1.3
+  items: {
+    items: [
+      SmallPADORU/20
+    ]
+  }
+}
+category: units
+requirements: [
+  SmallPADORU/100
+  lead/100
+  silicon/60
+  titanium/30
+]

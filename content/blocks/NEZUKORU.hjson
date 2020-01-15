@@ -1,0 +1,42 @@
+type: DoubleTurret
+name: NEZUKORU
+description: Sprays PADORU bullets everywhere. What a kris-mess.
+health: 1300
+size: 4
+reload: 40
+range: 320
+ammoUseEffect: shellEjectSmall
+inaccuracy: 2
+rotatespeed: 15
+targetAir: false
+ammo: {
+  PADORU: {
+    speed: 15
+    shots: 5
+    shotDelay: 5
+    damage: 500
+    bulletWidth: 10
+    bulletHeight: 15
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  SmallPADORU: {
+    speed: 10
+    shots:3
+    damage: 100
+    bulletWidth: 10
+    bulletHeight: 15
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+}
+requirements: [
+  SmallPADORU/300
+  PADORU/100
+  thorium/100
+  plastanium/50
+  silicon/150
+]
+category: turret

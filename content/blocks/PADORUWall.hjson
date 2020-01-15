@@ -1,0 +1,9 @@
+name: PADORU Wall
+description: A wall made of PADORU. Very Chrismatic.
+type: Wall
+health: 2666
+size: 2
+requirements: [
+  PADORU/40
+]
+category: defense

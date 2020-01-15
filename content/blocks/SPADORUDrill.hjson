@@ -1,0 +1,8 @@
+name: MiniPADORU Drill
+description: Mines with MiniPADORU.
+type: Drill
+tier: 2
+drillTime: 180
+itemCapacity:40
+size: 2
+category: production

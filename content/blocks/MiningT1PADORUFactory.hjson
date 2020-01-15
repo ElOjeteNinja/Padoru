@@ -1,0 +1,23 @@
+name: Mining T1 PADORU Factory
+description: Makes Minig T1PADORU units.
+type: UnitFactory
+unitType: MiningT1PADORU
+itemCapacity:60
+size: 2
+produceTime: 600
+maxSpawn: 2
+consumes: {
+  power: 2
+  items: {
+    items: [
+      PADORU/20
+      titanium/30
+    ]
+  }
+}
+category: units
+requirements: [
+  PADORU/80
+  titanium/120
+  silicon/60
+]
