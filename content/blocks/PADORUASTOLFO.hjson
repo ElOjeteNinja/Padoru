@@ -12,7 +12,7 @@ ammo: {
   PADORU: {
     speed: 6
     damage: 500
-    bulletWidth: 10
+    bulletWidth: 15
     bulletHeight: 15
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
