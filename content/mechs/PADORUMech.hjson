@@ -1,0 +1,16 @@
+name: PADORU
+description: An unnaturally PADORU mech. Spews messy lightning all over your enemies.
+speed: 1
+boostSpeed: 1.5
+buildPower: 2
+engineColor: "666495"
+flying: false
+health: 3000
+weaponOffsetX: 4
+weapon: {
+  name: MiniPADORUBlaster
+  length: 1.5
+  reload: 4
+  alternate: false
+  bullet: lightning
+}
