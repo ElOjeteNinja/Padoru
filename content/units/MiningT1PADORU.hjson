@@ -5,7 +5,7 @@ speed: 0.15
 flying: true
 health: 200
 engineOffset: 5.5
-range: 20
+range: 60
 minePower: 5
 buildPower: 0
 itemCapacity: 45
