@@ -5,11 +5,11 @@ speed: 0.25
 flying: true
 health: 400
 engineOffset: 5.5
-range: 20
+range: 60
 minePower: 5
 buildPower: 0
 itemCapacity: 60
-toMine:["thorium","titanium","lead","copper"]
+toMine:["thorium","titanium","lead","copper","SmallPADORU"]
  weapon : {
   name: MiniPADORUBlaster
   bullet: lancerLaser
