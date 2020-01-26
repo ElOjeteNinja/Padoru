@@ -9,7 +9,7 @@ range: 60
 minePower: 5
 buildPower: 0
 itemCapacity: 45
-toMine:["titanium","lead","copper"]
+toMine:["titanium","lead","copper","SmallPADORU"]
  weapon : {
   name: MiniPADORUBlaster
   bullet: lancerLaser
