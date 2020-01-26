@@ -1,0 +1,5 @@
+type: material
+name: PADORU
+description: A meow resource.
+cost: 3
+color: ffffff
