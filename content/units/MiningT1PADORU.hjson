@@ -1,0 +1,16 @@
+type: MinerDrone
+name: Mining T1 PADORU
+description: A PADORU mining Drone.
+speed: 0.15
+flying: true
+health: 200
+engineOffset: 5.5
+range: 20
+minePower: 5
+buildPower: 0
+itemCapacity: 45
+toMine:["titanium","lead","copper"]
+ weapon : {
+  name: MiniPADORUBlaster
+  bullet: lancerLaser
+ }

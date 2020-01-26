@@ -1,0 +1,15 @@
+type: groundUnit
+name: Medium PADORU
+description: Generally Medium PADORU and Medium PADORU.
+speed: 0.15
+flying: false
+health: 2000
+engineOffset: 5
+range: 560
+weapon: {
+  name: MiniPADORUBlaster
+  length: 1.5
+  reload: 20
+  alternate: true
+  bullet: standardHoming
+}

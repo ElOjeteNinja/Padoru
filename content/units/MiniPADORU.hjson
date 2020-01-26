@@ -1,0 +1,15 @@
+type: flyingUnit
+name: MiniPADORU
+description: Generally PADORU and PADORU.
+speed: 0.5
+flying: true
+health: 200
+engineOffset: 5.5
+range: 160
+weapon: {
+  name: MiniPADORUBlaster
+  length: 1.5
+  reload: 10
+  alternate: true
+  bullet: lightning
+}
