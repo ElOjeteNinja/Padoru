@@ -16,7 +16,7 @@ weapon: {
   type: BasicBulletType
   damage: 5
   speed: 5
-  
+  bulletSprite: JotaroPadoruBul
 }
   
 }
