@@ -12,4 +12,5 @@ weapon: {
   reload: 2
   alternate: true
   bullet: lightning
+  shotSound: ora-ora-ora-ora-ora-ora-ora-mp3cut
 }
