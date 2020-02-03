@@ -8,14 +8,15 @@ engineOffset: 5.5
 range: 160
 weapon: {
   name: MiniPADORUBlaster
+  shotSound: ora-ora-ora-ora-ora-ora-ora-mp3cut
   length: 1.5
   reload: 2
   alternate: true
   bullet: {
-  type: {
+  type: BasicBulletType
   damage: 5
   speed: 5
-  }
+  
 }
-  shotSound: ora-ora-ora-ora-ora-ora-ora-mp3cut
+  
 }
