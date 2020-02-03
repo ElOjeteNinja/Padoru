@@ -12,9 +12,10 @@ weapon: {
   reload: 2
   alternate: true
   bullet: {
-  type: BasicBulletType
+  type: {
   damage: 5
   speed: 5
+  }
 }
   shotSound: ora-ora-ora-ora-ora-ora-ora-mp3cut
 }
