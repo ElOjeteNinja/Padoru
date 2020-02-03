@@ -11,6 +11,10 @@ weapon: {
   length: 1.5
   reload: 2
   alternate: true
-  bullet: lightning
+  bullet: {
+  type: BasicBulletType
+  damage: 5
+  speed: 5
+}
   shotSound: ora-ora-ora-ora-ora-ora-ora-mp3cut
 }
