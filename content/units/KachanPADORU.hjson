@@ -1,0 +1,25 @@
+type: flyingUnit
+name: Kachan PADORU
+description: Generally PADORU and PADORU.
+speed: 0.3
+flying: true
+health: 2000
+engineOffset: 5.5
+range: 160
+weapon: {
+  name: MiniPADORUBlaster
+  shootSound: ora-ora-ora-ora-ora-ora-ora-mp3cut
+  length: 1.5
+  reload: 2
+  alternate: true
+  bullet: {
+  type: BasicBulletType
+  damage: 1
+  splashDamage: 5000
+  splashDamageRadius: 100
+  killShooter: true
+  speed: 5
+  bulletSprite: JotaroPadoruBul
+}
+  
+}
