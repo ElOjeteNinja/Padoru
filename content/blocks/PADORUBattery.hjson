@@ -1,0 +1,7 @@
+type: Battery
+health: 100
+size: 2
+consumes: {
+powerBuffered: 18000
+}
+category: power
