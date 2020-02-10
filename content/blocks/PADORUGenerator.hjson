@@ -8,6 +8,7 @@ consumes: {
       PADORU/1
     ]
   }
+  }
 powerProduction:5
 requirements:[
 PADORU/400
