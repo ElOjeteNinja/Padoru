@@ -1,0 +1,17 @@
+type: PowerGenerator
+name: Padoru Generator
+health: 350
+size: 3
+consumes: {
+  items: {
+    items: [
+      PADORU/1
+    ]
+  }
+powerProduction:5
+requirements:[
+PADORU/400
+copper/100
+thorium/90
+]
+category: power
