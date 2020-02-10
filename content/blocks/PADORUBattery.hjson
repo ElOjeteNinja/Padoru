@@ -5,9 +5,9 @@ size: 2
 consumes: {
 powerBuffered: 18000
 }
-requirements:{
+requirements:[
 PADORU/50
 silicon/10
 titanium/30
-}
+]
 category: power
