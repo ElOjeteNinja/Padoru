@@ -1,7 +1,13 @@
 type: Battery
+name: Padoru Battery
 health: 100
 size: 2
 consumes: {
 powerBuffered: 18000
+}
+requirements:{
+PADORU/50
+silicon/10
+titanium/30
 }
 category: power
