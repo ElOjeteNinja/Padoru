@@ -1,0 +1,6 @@
+type: CoreBlock
+name: PADORU Core
+description: PADORU PADORU MAKER.
+size: 2
+hasItems: true
+mech: PADORUMech
