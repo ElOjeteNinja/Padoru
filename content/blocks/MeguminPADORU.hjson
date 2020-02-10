@@ -1,0 +1,30 @@
+type: ArtilleryTurret
+name: Megumin Padoru
+description: Musulman PADORU
+health: 1600
+size: 4
+reload: 600
+range: 5000
+ammoUseEffect: shellEjectSmall
+inaccuracy: 5
+rotatespeed: 0.5
+ammo: {
+  blast-compound: {
+    speed: 16
+    damage: 500
+    bulletWidth: 10
+    bulletHeight: 15
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 3
+    splashDamageRadius: 100
+	  splashDamage: 5000
+  }
+}
+requirements: [
+  SmallPADORU/300
+  PADORU/100
+  thorium/100
+  plastanium/25
+  silicon/150
+]
