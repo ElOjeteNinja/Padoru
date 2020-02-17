@@ -2,6 +2,10 @@ name: Padoru
 description: Padoru and Padoru lie here.
 loadout: basicFoundation
 startingItems: [
+  copper/300
+  lead/300
+]
+launchCost: [
   copper/1
   lead/1
 ]
