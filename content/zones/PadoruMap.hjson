@@ -1,17 +1,23 @@
-baseLaunchCost: [
-copper/100
-lead/100
-]
-launchCost: [
-copper/100
-lead/100
-]
+name: Padoru
+description: Padoru and Padoru lie here.
+loadout: basicFoundation
 startingItems: [
-copper/100
-lead/100
+  copper/200
+  lead/300
 ]
-alwaysUnlocked: true
-loadout: basicShard
+conditionWave: 10
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: groundZero
+    wave: 5
+  }
+]
 resources: [
-"copper","lead","SmallPADORU"
+  copper
+  SmallPADORU
+  lead
+  coal
+  sand
 ]
