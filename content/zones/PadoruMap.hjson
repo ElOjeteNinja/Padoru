@@ -1,0 +1,17 @@
+baseLaunchCost: [
+copper/100
+lead/100
+]
+launchCost: [
+copper/100
+lead/100
+]
+startingItems: [
+copper/100
+lead/100
+]
+alwaysUnlocked: true
+loadout: basicShard
+resources: [
+"copper","lead","SmallPADORU"
+]
