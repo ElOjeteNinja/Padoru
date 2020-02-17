@@ -2,8 +2,8 @@ name: Padoru
 description: Padoru and Padoru lie here.
 loadout: basicFoundation
 startingItems: [
-  copper/200
-  lead/300
+  copper/1
+  lead/1
 ]
 conditionWave: 10
 launchPeriod: 10
