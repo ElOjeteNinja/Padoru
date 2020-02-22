@@ -1,0 +1,16 @@
+type: ForceProjector
+name: TatePadoru
+health: 1500
+size: 3
+breakage: 2500
+radius: 150
+consumes:{
+power: 3
+}
+requirements: [
+plastanium/150
+silicon/160
+thorium/800
+MetalPADORU/50
+]
+category: effect
