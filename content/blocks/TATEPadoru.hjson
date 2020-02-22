@@ -6,6 +6,11 @@ breakage: 2500
 radius: 150
 consumes:{
 power: 3
+		items: {
+			items: [ phase-fabric/1 ]
+			booster: true
+			optional: true
+        }
 }
 requirements: [
 plastanium/150
