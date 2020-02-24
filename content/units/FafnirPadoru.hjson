@@ -16,4 +16,5 @@ weapon: {
   bullet: {
   type: BasicBulletType
   damage: 0
+  }
 }
