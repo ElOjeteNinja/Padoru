@@ -1,5 +1,6 @@
 type: DoubleTurret
-name: THE PADORU
+name: thepadoru
+displayName: THE PADORU
 description: THE ULTIMATE PADORU
 health: 1500
 size: 4
