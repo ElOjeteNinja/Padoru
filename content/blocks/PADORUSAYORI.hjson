@@ -1,4 +1,4 @@
-type: DoubleTurret
+type: ArtilleryTurret
 name: Sayori PADORU
 description: Chains enemies and hangs them.
 health: 1500
@@ -10,6 +10,7 @@ inaccuracy: 20
 rotatespeed: 15
 ammo: {
   PADORU: {
+    type: ArtilleryBulletType
     range: 250
     damage: 250
     bulletWidth: 10
@@ -17,23 +18,20 @@ ammo: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 5
-    	fragBullets: 1
+    speed: 12
+    
+    	fragBullets: 6
 								fragBullet: {
-									type: MissileBulletType
-									damage: 400
+									type: lightning
+									damage: 150
 									lifetime: 180
 									speed: 14
-									splashDamage: 0
-									splashDamageRadius: 0
+								
 									frontColor: DA70DB
 									backColor: DA70DB
-									homingPower: 10000
-									homingRange: 10000
 									
-									bulletWidth: 2
-									bulletHeight: 2
-									bulletSprite: missile
-									bulletShrink: 0
+									
+									
 								}
   }
   }
