@@ -10,7 +10,7 @@ inaccuracy: 20
 rotatespeed: 15
 ammo: {
   PADORU: {
-    type: ArtilleryBulletType
+  type: ArtilleryBulletType
     range: 250
     damage: 250
     bulletWidth: 10
@@ -19,20 +19,8 @@ ammo: {
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 5
     speed: 12
-    
-    	fragBullets: 6
-								fragBullet: {
-									bullet: lightning
-									damage: 150
-									lifetime: 180
-									speed: 14
-								
-									frontColor: DA70DB
-									backColor: DA70DB
-									
-									
-									
-								}
+ fragBullets: 6
+      fragBullet: lightning
   }
   }
 requirements: [
