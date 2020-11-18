@@ -1,0 +1,31 @@
+type: ArtilleryTurret
+name: Padoru Unbeatable
+description: Unbroken PADORU
+health: 10000
+size: 4
+reload: 100
+range: 50000
+ammoUseEffect: shellEjectSmall
+inaccuracy: 1
+rotatespeed: 0.10
+ammo: {
+  blast-compound: {
+    speed: 1600
+    damage: 9000
+    bulletWidth: 100
+    bulletHeight: 50
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 4
+    splashDamageRadius: 1000
+	  splashDamage: 6000
+  }
+}
+requirements: [
+  SmallPADORU/3000
+  PADORU/1000
+  thorium/1000
+  plastanium/250
+  silicon/1500
+]
+category: turret
